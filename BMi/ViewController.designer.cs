@@ -23,6 +23,10 @@ namespace BMi
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel resultLabel { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UITextField weightTextField { get; set; }
 
         void ReleaseDesignerOutlets ()
@@ -35,6 +39,11 @@ namespace BMi
             if (heightTextField != null) {
                 heightTextField.Dispose ();
                 heightTextField = null;
+            }
+
+            if (resultLabel != null) {
+                resultLabel.Dispose ();
+                resultLabel = null;
             }
 
             if (weightTextField != null) {

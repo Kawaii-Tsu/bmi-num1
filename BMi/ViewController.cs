@@ -15,12 +15,31 @@ namespace BMi
         {
             base.ViewDidLoad();
             // Perform any additional setup after loading the view, typically from a nib.
+
+            calculateBtt.TouchUpInside+= CalculateBtt_TouchUpInside;
+        }
+
+        void CalculateBtt_TouchUpInside(object sender, EventArgs e)
+        {
+            float height = float.Parse(heightTextField.Text);
+            float weight = float.Parse(weightTextField.Text);
+
+            float bmi = (weight / (height * height));
+
+            resultLabel.Text = bmi.ToString();
         }
 
         public override void DidReceiveMemoryWarning()
         {
             base.DidReceiveMemoryWarning();
             // Release any cached data, images, etc that aren't in use.
+        }
+
+        public override void TouchesBegan(Foundation.NSSet touches, UIEvent evt)
+        {
+            base.TouchesBegan(touches, evt);
+
+            this.View.EndEditing(true);
         }
     }
 }
