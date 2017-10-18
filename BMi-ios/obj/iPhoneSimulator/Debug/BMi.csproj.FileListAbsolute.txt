@@ -16,3 +16,12 @@
 /Users/louisp3/Desktop/repos/BMi_calculator/bmi-num1/BMi/obj/iPhoneSimulator/Debug/device-builds/iphone8.2-10.3.1/actool/_PartialAppManifest.items
 /Users/louisp3/Desktop/repos/BMi_calculator/bmi-num1/BMi/obj/iPhoneSimulator/Debug/device-builds/iphone8.2-10.3.1/actool/_BundleResourceWithLogicalName.items
 /Users/louisp3/Desktop/repos/BMi_calculator/bmi-num1/BMi/obj/iPhoneSimulator/Debug/device-builds/iphone8.2-10.3.1/optimized/
+/Users/louisp3/Desktop/repos/BMi_calculator/bmi-num1/BMi-ios/bin/iPhoneSimulator/Debug/BMi.exe
+/Users/louisp3/Desktop/repos/BMi_calculator/bmi-num1/BMi-ios/bin/iPhoneSimulator/Debug/BMi.pdb
+/Users/louisp3/Desktop/repos/BMi_calculator/bmi-num1/BMi-ios/obj/iPhoneSimulator/Debug/BMi.csproj.CoreCompileInputs.cache
+/Users/louisp3/Desktop/repos/BMi_calculator/bmi-num1/BMi-ios/obj/iPhoneSimulator/Debug/BMi.exe
+/Users/louisp3/Desktop/repos/BMi_calculator/bmi-num1/BMi-ios/obj/iPhoneSimulator/Debug/BMi.pdb
+/Users/louisp3/Desktop/repos/BMi_calculator/bmi-num1/BMi-ios/obj/iPhoneSimulator/Debug/device-builds/iphone8.2-10.3.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/louisp3/Desktop/repos/BMi_calculator/bmi-num1/BMi-ios/obj/iPhoneSimulator/Debug/device-builds/iphone8.2-10.3.1/actool/_PartialAppManifest.items
+/Users/louisp3/Desktop/repos/BMi_calculator/bmi-num1/BMi-ios/obj/iPhoneSimulator/Debug/device-builds/iphone8.2-10.3.1/actool/_BundleResourceWithLogicalName.items
+/Users/louisp3/Desktop/repos/BMi_calculator/bmi-num1/BMi-ios/obj/iPhoneSimulator/Debug/device-builds/iphone8.2-10.3.1/optimized/

@@ -19,6 +19,10 @@ namespace BMi
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton detailsButton { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UITextField heightTextField { get; set; }
 
         [Outlet]
@@ -34,6 +38,11 @@ namespace BMi
             if (calculateBtt != null) {
                 calculateBtt.Dispose ();
                 calculateBtt = null;
+            }
+
+            if (detailsButton != null) {
+                detailsButton.Dispose ();
+                detailsButton = null;
             }
 
             if (heightTextField != null) {
