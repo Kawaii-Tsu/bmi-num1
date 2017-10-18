@@ -1,10 +1,12 @@
 ﻿<Properties StartupConfiguration="{F7931A69-9E17-4D37-BEBD-DDA39FE61BA1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Main.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Main.storyboard">
     <Files>
       <File FileName="Main.storyboard" />
-      <File FileName="ViewController.cs" Line="1" Column="1" />
-      <File FileName="DetailsViewController.cs" Line="1" Column="1" />
       <File FileName="Main.cs" Line="12" Column="1" />
+      <File FileName="LaunchScreen.storyboard" />
+      <File FileName="ViewController.cs" Line="1" Column="1" />
+      <File FileName="DetailsVController.cs" Line="1" Column="1" />
+      <File FileName="AppDelegate.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
@@ -12,6 +14,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.BMi PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.901ACA6D-0B3E-4851-BDAE-0B8D26A4D3BF" />
+  <MonoDevelop.Ide.ItemProperties.BMi PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.19F70690-EDB0-45E4-B4FC-EB8CB9903071" />
   <MultiItemStartupConfigurations />
 </Properties>

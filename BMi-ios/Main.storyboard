@@ -105,7 +105,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <segue id="1215" destination="659" kind="show"/>
+                                    <segue id="3282" destination="659" kind="show"/>
                                 </connections>
                             </button>
                         </subviews>

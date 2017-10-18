@@ -11,8 +11,8 @@ using UIKit;
 
 namespace BMi
 {
-    [Register ("DetailsViewController")]
-    partial class DetailsViewController
+    [Register ("DetailsVController")]
+    partial class DetailsVController
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
