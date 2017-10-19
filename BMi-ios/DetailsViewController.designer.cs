@@ -11,18 +11,18 @@ using UIKit;
 
 namespace BMi
 {
-    [Register ("DetailsVController")]
-    partial class DetailsVController
+    [Register ("DetailsViewController")]
+    partial class DetailsViewController
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UILabel detailsLabel { get; set; }
+        UIKit.UILabel detailsLbl { get; set; }
 
         void ReleaseDesignerOutlets ()
         {
-            if (detailsLabel != null) {
-                detailsLabel.Dispose ();
-                detailsLabel = null;
+            if (detailsLbl != null) {
+                detailsLbl.Dispose ();
+                detailsLbl = null;
             }
         }
     }

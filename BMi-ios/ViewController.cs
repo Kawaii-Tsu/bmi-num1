@@ -6,6 +6,7 @@ namespace BMi
 {
     public partial class ViewController : UIViewController
     {
+        float bmi = 21.5f;
         protected ViewController(IntPtr handle) : base(handle)
         {
             // Note: this .ctor should not contain any initialization logic.
@@ -24,7 +25,7 @@ namespace BMi
             float height = float.Parse(heightTextField.Text);
             float weight = float.Parse(weightTextField.Text);
 
-            float bmi = (weight / (height * height));
+            bmi = (weight / (height * height));
 
             resultLabel.Text = bmi.ToString();
         }
@@ -40,6 +41,15 @@ namespace BMi
             base.TouchesBegan(touches, evt);
 
             this.View.EndEditing(true);
+        }
+
+        public override void PrepareForSegue(UIStoryboardSegue segue, Foundation.NSObject sender)
+        {
+            base.PrepareForSegue(segue, sender);
+
+            var detailsViewController = segue.DestinationViewController as DetailsViewController;
+
+            detailsViewController.bmi = this.bmi;
         }
     }
 }

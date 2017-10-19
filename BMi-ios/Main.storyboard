@@ -92,8 +92,8 @@
                                     </attributedString>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1188" translatesAutoresizingMaskIntoConstraints="NO" hasAttributedTitle="YES">
-                                <rect key="frame" x="261" y="293" width="90" height="48"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3848" translatesAutoresizingMaskIntoConstraints="NO" hasAttributedTitle="YES">
+                                <rect key="frame" x="258" y="302" width="72" height="30"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Details">
@@ -105,7 +105,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <segue id="3282" destination="659" kind="show"/>
+                                    <segue id="4006" destination="3844" kind="show"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -117,7 +117,7 @@
                                 <exclude reference="388"/>
                                 <exclude reference="389"/>
                                 <exclude reference="390"/>
-                                <exclude reference="1188"/>
+                                <exclude reference="3848"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -128,7 +128,7 @@
                                 <include reference="388"/>
                                 <include reference="389"/>
                                 <include reference="390"/>
-                                <include reference="1188"/>
+                                <include reference="3848"/>
                             </mask>
                         </variation>
                     </view>
@@ -137,7 +137,7 @@
                         <outlet property="weightTextField" destination="389" id="name-outlet-389"/>
                         <outlet property="calculateBtt" destination="390" id="name-outlet-390"/>
                         <outlet property="resultLabel" destination="387" id="name-outlet-387"/>
-                        <outlet property="detailsButton" destination="1188" id="name-outlet-1188"/>
+                        <outlet property="detailsBtt" destination="3848" id="name-outlet-3848"/>
                     </connections>
                     <navigationItem id="649" key="navigationItem" title="BMI Calculator"/>
                 </viewController>
@@ -149,7 +149,7 @@
             <objects>
                 <navigationController id="608" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="610">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -160,56 +160,51 @@
             </objects>
             <point key="canvasLocation" x="-678" y="-91"/>
         </scene>
-        <scene sceneID="658">
+        <scene sceneID="3843">
             <objects>
-                <viewController id="659" sceneMemberID="viewController" customClass="DetailsViewController">
+                <viewController id="3844" sceneMemberID="viewController" customClass="DetailsViewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="656"/>
-                        <viewControllerLayoutGuide type="bottom" id="657"/>
+                        <viewControllerLayoutGuide type="top" id="3841"/>
+                        <viewControllerLayoutGuide type="bottom" id="3842"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="660">
+                    <view key="view" contentMode="scaleToFill" id="3845">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="663" translatesAutoresizingMaskIntoConstraints="NO" usesAttributedText="YES">
-                                <rect key="frame" x="13" y="234" width="389" height="212"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3849" translatesAutoresizingMaskIntoConstraints="NO" usesAttributedText="YES">
+                                <rect key="frame" x="20" y="87" width="374" height="318"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="...">
+                                    <fragment content=".">
                                         <attributes>
-                                            <color key="NSColor" colorSpace="calibratedRGB" red="0.23137254901960785" green="1" blue="0.45490196078431372" alpha="1"/>
-                                            <font key="NSFont" name="HelveticaNeue-Light" family="Helvetica Neue" size="49"/>
+                                            <color key="NSColor" colorSpace="calibratedRGB" red="0.31764705882352939" green="1" blue="0.71372549019607845" alpha="1"/>
+                                            <font key="NSFont" name="HelveticaNeue-Light" family="Helvetica Neue" size="23"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
-                                <size key="shadowOffset" width="3" height="1"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
-                                    <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </variation>
                             </label>
                         </subviews>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="663"/>
+                                <exclude reference="3849"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
-                                <include reference="663"/>
+                                <include reference="3849"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="detailsLabel" destination="663" id="name-outlet-663"/>
+                        <outlet property="detailsLbl" destination="3849" id="name-outlet-3849"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="661" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3846" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="219" y="-88"/>
+            <point key="canvasLocation" x="294" y="-93"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
