@@ -92,7 +92,7 @@
                                     </attributedString>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3848" translatesAutoresizingMaskIntoConstraints="NO" hasAttributedTitle="YES">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3848" translatesAutoresizingMaskIntoConstraints="NO" hasAttributedTitle="YES" fixedFrame="YES">
                                 <rect key="frame" x="258" y="302" width="72" height="30"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -168,11 +168,11 @@
                         <viewControllerLayoutGuide type="bottom" id="3842"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="3845">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3849" translatesAutoresizingMaskIntoConstraints="NO" usesAttributedText="YES">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3849" translatesAutoresizingMaskIntoConstraints="NO" usesAttributedText="YES" fixedFrame="YES">
                                 <rect key="frame" x="20" y="87" width="374" height="318"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
